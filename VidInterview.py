@@ -14,7 +14,7 @@ def main():
     reload(TTS)
     reload(NLPP)
     reload(Speech)
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\User\Documents\HackHarvard\file.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\..\file.json"
 
     
     numQs = 3
